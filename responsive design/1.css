@@ -1,0 +1,12 @@
+.header{
+    border: 3px solid black;
+    height: 100px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .header{
+        background-color: blue;
+    }
+}

@@ -1,0 +1,8 @@
+version control is basically used in tech industry which means controlling the version of a website.
+As we know updations in websites are necessary but what if after some time that updation gives error.
+We have to switch to previous version till new version is not updated.
+So it is required to save all the version and this means the verson control that is controlling the previous versions of a website.
+
+Importance:
+1. we can see what changes have we made in new version of website.
+2. we can switch to previous version in case of error in current version

@@ -1,0 +1,6 @@
+Justify-content: it is used to change the position of the elements in main axis.
+Align-items: it is used to change the position of elements in cross-axis.
+gap: it is the space between any two elements of flexbox.
+flex-direction: it specifies the direction of flex.Directuion may be row,column,row-reverse and column-reverse. Default direction is row.
+flex-wrap: using this the elements automatically goes to next line in case of overflow. It may have values like wrap, no-wrap and wrap-reverse.
+           It is also used in case of responsive design. When screen size decreases the view of web page changes.

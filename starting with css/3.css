@@ -1,0 +1,9 @@
+.form{
+    background-color: aqua;
+    width: 400px;
+    height: 450px;
+    opacity: 0.8;
+}
+.input{
+    background-color: burlywood;
+}

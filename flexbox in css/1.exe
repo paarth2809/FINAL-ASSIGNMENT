@@ -1,0 +1,4 @@
+CSS flexbox layout model is majorly used to partitioning a box into parts of different size and it doesn't involve the concept of rows and columns
+CSS grid layout model  is used to partition a box in rows and columns which an be of different sizes.
+
+I would choose grid layout model as it makes it easy to divide a box to several rows and columns and it also makes it easy to resize any row and column.

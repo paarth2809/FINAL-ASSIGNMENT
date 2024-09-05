@@ -1,0 +1,35 @@
+.outer{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    width: 500px;
+    padding: 10px;
+}
+
+.inner{
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: rgb(172, 134, 84);
+}
+
+@media screen and (max-width: 600px){
+    .outer{
+        grid-template-columns: 150px;
+        grid-template-rows: 150px 150px 150px 150px;
+    }
+}

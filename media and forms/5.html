@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign-Up form</h1>
+    <form action="#">
+        <label for="first_name">Enter your first name: </label>
+        <input type="text" id="first_name" required minlength="3"> <br>
+
+        <label for="last_name">Enter your last name: </label>
+        <input type="text" id="last_name" required minlength="3"> <br>
+
+        <label for="email">Enter email address: </label>
+        <input type="email" id="email" required minlength="3"> <br>
+
+        <label for="password">Enter password: </label>
+        <input type="password" id="password" required> <br>
+
+        <label for="confirm_password">Confirm your password: </label>
+        <input type="password" id="confirm_password" required> <br>
+
+        <label for="age">Enter age: </label>
+        <input type="number" id="age" min="0" max="150" required > <br> <br>
+
+        <fieldset>
+            <legend>What is your gender: </legend>
+            <input type="radio" id="male" name="gender" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" required>
+            <label for="female">Female</label>
+        </fieldset>
+        <details>
+            <summary>Check Terms and conditions and agree to Sign-Up</summary>
+            <p>These are terms and conditions</p>
+            <input type="checkbox" id="terms" required>
+        <label for="terms">Agree to terms and conditions</label>
+        </details required>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <br>
+    <br>
+    <h1>Sign-In form</h1>
+    <form action="#">
+        <label for="email">Enter email: </label>
+        <input type="email" id="email"> <br>
+        <label for="password">Enter password: </label>
+        <input type="password" id="password"> <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,2 @@
+express.js is a framework for javascript that can enhance the experience of crating any web application
+we can craete a express server in this

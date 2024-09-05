@@ -1,0 +1,25 @@
+.outer{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 20px;
+    grid-template-rows: 300px;
+}
+
+.inner{
+    background-image: url('5.jpeg');
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 800px){
+    .outer{
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 300px 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .outer{
+        grid-template-columns: 250px;
+        grid-template-rows: 300px 300px 300px;
+    }
+}

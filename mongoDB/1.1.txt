@@ -1,0 +1,3 @@
+Schema is the design for the data to be stored.
+schema is the structure that defines the organization of data in a collection.
+ 

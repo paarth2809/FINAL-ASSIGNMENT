@@ -1,0 +1,12 @@
+li{
+    color: white;
+    list-style-type: none;
+    
+}
+ul{
+    background-color: rgb(23, 49, 195);
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 800px;
+}

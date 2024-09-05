@@ -1,0 +1,2 @@
+justify-items is used to change the positioning of all the items in horizontal direction.
+justify-self is used to change the positioning of only the item itself in horizonatal direction and not oher items.

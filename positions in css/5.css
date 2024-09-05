@@ -1,0 +1,43 @@
+.card{
+    border: 1px solid black;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    left: 370px;
+    top: 300px;
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+}
+
+.card1{
+    background-image: url('download.jpeg');
+    transform: rotate(30deg);
+}
+
+.card2{
+    background-image: url('download.jpeg');
+    transform: rotate(45deg);
+}
+
+
+.card3{
+    background-image: url('download.jpeg');
+    transform: rotate(60deg);
+}
+
+
+.card4{
+    background-image: url('download.jpeg');
+    transform: rotate(75deg);
+}
+
+/* 
+    following i am changing z-index if i hover to card 
+    and the card i hover its z-index becomes 1 and it will be visible on top
+*/
+.card:hover{
+    z-index: 1;
+}

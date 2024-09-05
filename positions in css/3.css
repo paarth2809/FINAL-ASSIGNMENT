@@ -1,0 +1,8 @@
+.outer{
+    border: 3px solid black;
+    padding: 20px;
+}
+img{
+    float: right;
+    margin: 10px;
+}

@@ -1,0 +1,51 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+}
+
+.nav-left,
+.nav-right {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-left{
+    justify-content: start;
+}
+
+.nav-right{
+    justify-content: end;
+    gap: 20px;
+}
+
+.li1{
+    color: White;
+}
+
+.li2{
+    color: White;
+}
+.lis{
+    color: gray;
+}
+.li3{
+    color: gold;
+    border: 1px solid gold;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+}
+
+.logo{
+    color: White;
+}
+

@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full viewport height */
+    width: 100%;  /* Full viewport width */
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(53, 232, 53);
+}

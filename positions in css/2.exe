@@ -1,0 +1,7 @@
+Absolute and relative are two types used for positioning of elements.
+
+Relative method is used to position a block with respect to its current position.
+It doesn't break the original flow of document.
+
+Absolute method is used to position a block with respect to its parent positioned block.
+It break the original flow of document.

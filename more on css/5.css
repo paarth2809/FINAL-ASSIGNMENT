@@ -1,0 +1,13 @@
+
+img{
+    position: relative;
+    left: 250px;
+    border: 2px solid black;
+}
+h2{
+    position: relative;
+    left: 350px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
